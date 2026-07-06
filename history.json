@@ -1,0 +1,72 @@
+[
+  {
+    "bulletinMonth": "2025-10",
+    "finalActionDate": "2023-04-01",
+    "rawFinalActionDate": "01APR23",
+    "movementDays": 0,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2025/visa-bulletin-for-october-2025.html"
+  },
+  {
+    "bulletinMonth": "2025-11",
+    "finalActionDate": "2023-04-01",
+    "rawFinalActionDate": "01APR23",
+    "movementDays": 0,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2025/visa-bulletin-for-november-2025.html"
+  },
+  {
+    "bulletinMonth": "2025-12",
+    "finalActionDate": "2023-04-01",
+    "rawFinalActionDate": "01APR23",
+    "movementDays": 0,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2025/visa-bulletin-for-december-2025.html"
+  },
+  {
+    "bulletinMonth": "2026-01",
+    "finalActionDate": "2023-08-01",
+    "rawFinalActionDate": "01AUG23",
+    "movementDays": 122,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-january-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-02",
+    "finalActionDate": "2023-10-01",
+    "rawFinalActionDate": "01OCT23",
+    "movementDays": 61,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-february-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-03",
+    "finalActionDate": "2023-10-01",
+    "rawFinalActionDate": "01OCT23",
+    "movementDays": 0,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-march-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-04",
+    "finalActionDate": "2024-01-01",
+    "rawFinalActionDate": "01JAN24",
+    "movementDays": 92,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-april-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-05",
+    "finalActionDate": "2024-04-01",
+    "rawFinalActionDate": "01APR24",
+    "movementDays": 91,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-may-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-06",
+    "finalActionDate": "2024-04-01",
+    "rawFinalActionDate": "01APR24",
+    "movementDays": 0,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-june-2026.html"
+  },
+  {
+    "bulletinMonth": "2026-07",
+    "finalActionDate": "2024-08-01",
+    "rawFinalActionDate": "01AUG24",
+    "movementDays": 122,
+    "sourceUrl": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-july-2026.html"
+  }
+]

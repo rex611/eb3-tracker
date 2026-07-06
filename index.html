@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EB3 Tracker">
+    <title>EB3 Tracker</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <nav class="topbar" aria-label="Primary">
+          <div class="brand">
+            <img src="icons/favicon.svg" alt="" width="34" height="34">
+            <span>EB3 Tracker</span>
+          </div>
+          <div class="status-pill" id="onlineStatus">Checking...</div>
+        </nav>
+        <section class="hero-grid" aria-labelledby="pageTitle">
+          <div>
+            <p class="eyebrow">EB-3 ROW Visa Bulletin</p>
+            <h1 id="pageTitle">Your priority date, at a glance.</h1>
+            <p class="hero-copy">Chart A Final Action Dates for All Chargeability Areas Except Those Listed, refreshed by GitHub Actions.</p>
+          </div>
+          <div class="glass-card latest-card">
+            <span class="card-label">Latest Final Action Date</span>
+            <strong id="latestDate">--</strong>
+            <span id="bulletinMonth">Waiting for data</span>
+          </div>
+        </section>
+      </header>
+      <main>
+        <section class="dashboard-grid" aria-label="Dashboard">
+          <article class="metric-card current-card">
+            <div>
+              <span class="card-label">My Priority Date</span>
+              <strong id="priorityDate">Jun 20, 2025</strong>
+            </div>
+            <div class="ring" aria-hidden="true">
+              <span id="progressPercent">0%</span>
+            </div>
+          </article>
+          <article class="metric-card">
+            <span class="card-label">Remaining</span>
+            <strong id="remainingDays">--</strong>
+            <span id="remainingMonths">--</span>
+          </article>
+          <article class="metric-card">
+            <span class="card-label">Estimated Current</span>
+            <strong id="estimatedCurrent">--</strong>
+            <span id="velocityLabel">Based on recent movement</span>
+          </article>
+          <article class="metric-card">
+            <span class="card-label">Last Movement</span>
+            <strong id="lastMovement">--</strong>
+            <span id="lastUpdated">--</span>
+          </article>
+        </section>
+        <section class="progress-section" aria-labelledby="progressTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Dashboard</p>
+            <h2 id="progressTitle">Progress to current</h2>
+          </div>
+          <div class="progress-track" role="progressbar" aria-labelledby="progressTitle" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="progressBar"></div>
+          </div>
+          <div class="timeline-labels">
+            <span>Oct 2024 baseline</span>
+            <span>Your date</span>
+          </div>
+        </section>
+        <section class="content-grid">
+          <article class="panel history-panel">
+            <div class="section-heading">
+              <p class="eyebrow">History</p>
+              <h2>Monthly movement</h2>
+            </div>
+            <div class="chart-wrap">
+              <canvas id="historyChart" aria-label="EB3 ROW final action date history" role="img"></canvas>
+            </div>
+          </article>
+          <article class="panel prediction-panel">
+            <div class="section-heading">
+              <p class="eyebrow">Prediction</p>
+              <h2>Current date scenarios</h2>
+            </div>
+            <div class="prediction-list" id="predictionList"></div>
+          </article>
+        </section>
+        <section class="panel table-panel" aria-labelledby="tableTitle">
+          <div class="section-heading">
+            <p class="eyebrow">History</p>
+            <h2 id="tableTitle">Visa Bulletin log</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Bulletin</th>
+                  <th>Final Action Date</th>
+                  <th>Movement</th>
+                  <th>Source</th>
+                </tr>
+              </thead>
+              <tbody id="historyTable"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

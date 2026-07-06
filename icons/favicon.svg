@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="EB3 Tracker">
+  <defs>
+    <linearGradient id="g" x1="14" y1="12" x2="82" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64d2ff"/>
+      <stop offset="1" stop-color="#7ee787"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="#0f172a"/>
+  <path d="M26 64V30h31.5v8H36v5.5h19.2v7.8H36V56h22.5v8H26Z" fill="url(#g)"/>
+  <path d="M61 65c7.8-6.3 11.7-13.2 11.7-20.7 0-5.8-3.5-9.8-8.7-9.8-3.1 0-5.8 1.5-7.7 4.1-1.8-2.6-4.5-4.1-7.6-4.1-5.2 0-8.7 4-8.7 9.8h8.3c0-1.7.9-2.6 2.3-2.6 1.5 0 2.3 1 2.3 2.8V65H61Z" fill="#f8fafc" opacity=".92"/>
+</svg>
